@@ -1,0 +1,70 @@
+<<<<<<< HEAD
+FlyingText3D Release Notes
+--------------------------
+
+FlyingText3D 1.2.2
+
+Fixes:
+	• Fixed issue which resulted in some characters not rendering on iOS.
+
+-----------
+
+FlyingText3D 1.2.1
+
+Changes:
+	• Removed override characters, since that's no longer needed (due to fix below).
+Fixes:
+	• Outline data parsing fixed for outlines with repeated data.
+
+-----------
+
+FlyingText3D 1.2
+
+Additions:
+	• Smoothing angle for making extruded edges have smooth lighting. It works the same way that the smoothing angle for imported meshes works in Unity.
+	• Left, right, and center justification for lines of text.
+	• A "justify" tag, so that different lines can have different justifications.
+Improvements:
+	• Warnings printed for unrecognized tags (helpful for catching typos).
+
+-----------
+
+FlyingText3D 1.1
+
+Improvements:
+=======
+FlyingText3D Release Notes
+--------------------------
+
+FlyingText3D 1.2.2
+
+Fixes:
+	• Fixed issue which resulted in some characters not rendering on iOS.
+
+-----------
+
+FlyingText3D 1.2.1
+
+Changes:
+	• Removed override characters, since that's no longer needed (due to fix below).
+Fixes:
+	• Outline data parsing fixed for outlines with repeated data.
+
+-----------
+
+FlyingText3D 1.2
+
+Additions:
+	• Smoothing angle for making extruded edges have smooth lighting. It works the same way that the smoothing angle for imported meshes works in Unity.
+	• Left, right, and center justification for lines of text.
+	• A "justify" tag, so that different lines can have different justifications.
+Improvements:
+	• Warnings printed for unrecognized tags (helpful for catching typos).
+
+-----------
+
+FlyingText3D 1.1
+
+Improvements:
+>>>>>>> origin/Development
+	• Initial support for compound glyphs, which seems to cover actual usage in fonts (the more esoteric stuff doesn't actually seemed to be used much), so things like accented characters will work.

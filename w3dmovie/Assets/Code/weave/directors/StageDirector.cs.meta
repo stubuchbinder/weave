@@ -1,0 +1,8 @@
+fileFormatVersion: 2
+guid: c9a301729000547d1831215a285d88a8
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - _stagePersonToCopy: {fileID: 100010, guid: 5392604fde4f2e749831320fba207721, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}

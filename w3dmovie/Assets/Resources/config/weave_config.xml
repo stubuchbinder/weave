@@ -1,0 +1,60 @@
+<weave>
+
+  <peoplefile>people/weave_people_actress.csv</peoplefile>
+	<photo>photos/</photo>
+  <numofstars>3</numofstars>
+  <numofrings>4</numofrings>
+  <sizeofpeople>1.8</sizeofpeople>
+  <innerradius>7</innerradius>
+  <outerradius>40</outerradius>
+  <logo>images/oscar_logo1.jpg</logo>
+  <logosize>.15</logosize>
+  <exitbutton>true</exitbutton>
+  <playtime>5</playtime>
+  
+	<moviequestions>
+
+		<question>	
+			
+			<questiontext>WHERE WERE YOU BORN AND WHAT YEAR?</questiontext>
+      <qname>q1</qname>
+      
+      <answerformat>I was born in ~state name~ in the year of ~Birth~.</answerformat>
+      <aname>a1</aname>
+      
+		</question>
+
+    <question>
+
+      <questiontext>HOW OLD WERE YOU WHEN YOU WON YOUR OSCAR?</questiontext>
+      <qname>q2</qname>
+
+      <answerformat>I was ~age~, when I won my Oscar for "~movie~" in ~year~.</answerformat>
+      <aname>a2</aname>
+
+    </question>
+		
+		<question>
+		
+			<questiontext>FUN FACT:</questiontext>
+      <qname>q3</qname>
+      
+      <answerformat>~funinfo~</answerformat>
+      <aname>a3</aname>
+      
+		</question>
+	
+	</moviequestions>
+  
+  
+  <person>
+    
+    <name></name>
+    <pcolor></pcolor>
+    <pdepth></pdepth>
+    <pjustify></pjustify>
+    <psize></psize>
+    
+  </person>
+  
+</weave>
